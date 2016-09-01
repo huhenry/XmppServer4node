@@ -4,7 +4,7 @@ A full XMPP server using node-xmpp, with some modules. Feel free to fork this an
 This server uses Redis as its datastore. 
 
 <strong>
-Unfortunately, the lack of time is slowly killing this project. If you feel like saving it, please, go ahead, message us and we'll set you up as the owner!
+This is a new branch from https://github.com/superfeedr/xmpp-server. 
 </strong>
 
 ## Installation 
@@ -44,15 +44,11 @@ Then, run the server:
 
 <code>xmpp-server /etc/xmpp-server/config.js </code>
 
-## Trying
 
-There is a server running at [ouvre-boite.com](xmpp://ouvre-boite.com). You can certainly create an account there, but don't leave any valuable belongings as they will be trashed every couple hours :)
 
 ## TODO
 
-* <del>In-band registration</del>
-* <del>C2S</del>
-* <del>TLS</del>
+* Log or system monitor
 * Digets Auth
 * Roster
 * Presence
